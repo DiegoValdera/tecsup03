@@ -1,0 +1,13 @@
+/*GLOBALES*/
+h2{
+    color: violet;
+}
+/*SECTION ONE*/
+.section-one h2{
+    color: tomato;
+}
+
+/*SECTION TWO*/
+.section-two h2{
+    color: yellowgreen;
+}

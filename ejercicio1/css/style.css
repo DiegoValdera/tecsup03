@@ -1,0 +1,87 @@
+/*REGLAS GENERALES*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 36px;
+    margin-left: 5% ;
+    margin-right: 5%;
+}
+/*TITULOS SECUNDARIOS*/
+h2{
+    font-size: 30px;
+}
+
+/*LOGO HEADER*/
+header h1{
+    font-size: 36px;
+    padding: 20px;
+}
+section{
+    border-radius: 8px;
+}
+section .fondo-image{
+    background-color: rgba(252, 228, 228, 0.993);
+    border-radius: 10px;
+}
+button{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+footer{
+    margin-top: 50px;
+}
+
+/*INCONOS FOOTER*/
+footer img{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+/*UNSUBCRIBE FOOTER*/
+footer a{
+    color: grey;
+}
+
+/*logo footer*/
+footer p:last-child{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*SECTION ONE*/
+.section-one{
+    display: flex;
+    margin-top: 30px;
+}
+.section-one div{
+    margin-left:30px;
+    text-align: left;
+}
+
+/*SECTION-TWO*/
+.section-two{
+    display: flex;
+    margin-top: 30px;
+}
+.section-two div{
+    margin-right:30px;
+    text-align: left;
+}
+
+/*SECTION-THERE*/
+.section-there{
+    display: flex;
+    margin-top: 30px;
+}
+.section-there div{
+    margin-left: 30px;
+    text-align: left;
+}
+
+/*SECTION FOR*/
+.section-for{
+    text-align: left;
+    line-height: 30px;
+}

@@ -1,0 +1,53 @@
+/* selecionar el primero*/
+ul li:first-child{
+    background-color: aquamarine;
+}
+
+/*seleccionar el ultimo*/
+ul li:last-child{
+    background-color: cadetblue;
+}
+
+/*seleccionar pares*/
+ul li:nth-child(even){
+    background-color: cornflowerblue;
+}
+
+/*seleccionar impares*/
+ul li:nth-child(odd){
+    background-color: rgb(187, 205, 238);
+}
+
+/*seleccionar personalizado*/
+section div:nth-child(3n+5){
+    background-color: rgb(230, 129, 149);
+}
+
+/*trabajando con tablas*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td{
+    border: 1px solid grey;
+}
+
+table tr:nth-child(2n+2){
+    background-color: rgb(245, 145, 245);
+}
+
+/*selectores*/
+ul>li{
+    border-top: 2px solid rgb(255, 51, 0);
+
+}
+
+h3+p{
+    color: orangered;
+}
+
+h3~p{
+    color: orchid;
+    font-weight: bold;
+}
