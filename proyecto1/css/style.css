@@ -1,0 +1,232 @@
+/*IMPORTANDO FUENTE*/
+@font-face{
+    font-family:robot;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf');
+}
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*ENCABEZADO*/
+header{
+    background-color: rgb(9, 112, 216);
+    display: inline-block;
+    padding: 20px;
+    position: fixed;
+    z-index: 1;
+}
+header h1{
+    font-family: robot;
+    color: #fff;
+    font-size: 24px;
+}
+
+/*ARMANDO EL HEAD*/
+.base{
+    display: flex;
+    padding-top: 120px;
+    background: linear-gradient(to right, rgb(158, 183, 238),rgb(63, 112, 219));
+}
+.contenedorbase{
+    width: 50%;
+    height: 500px;
+}
+.container{
+    position: relative;
+    width: 50%;
+    height: 500px;
+}
+.cabeza{
+    background-color: rgb(194, 193, 193);
+    width: 120px;
+    height: 110px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.cabeza .ojoder{
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 10px;
+}
+.cabeza .ojoizq{
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 10px;
+}
+.cabeza .boca{
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background-color: rgb(189, 12, 12);
+    top: 70px;
+    left: 35px;
+    border-radius: 10px;
+}
+
+/*ARMANDO SOMBRERO*/
+.sombrero1{
+    width: 70px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(192, 156, 36);
+    border-radius: 5px 5px 0 0;
+}
+.sombrero2{
+    width: 170px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(192, 156, 36);
+    border-radius: 10px;
+}
+
+/*ARMANDO EL BODY*/
+.cuerpo{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(35, 139, 78);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: 10px;
+}
+
+/*CORBATA*/
+.triangulo1{
+    width: 0;
+    height: 0;
+    border-right: 18px solid transparent;
+    border-top: 18px solid transparent;
+    border-left: 18px solid #f0ad4e;
+    border-bottom: 18px solid #f0ad4e;
+    position: absolute;
+    left: 60px;
+}
+.triangulo2{
+    width: 0;
+    height: 0;
+    border-right: 18px solid transparent;
+    border-top: 18px solid transparent;
+    border-right: 18px solid #f0ad4e;
+    border-bottom: 18px solid #f0ad4e;
+    position: absolute;
+    right: 60px;
+}
+
+/*ARMANDO LOS BRAZOS*/
+.cuerpo .brazoizq{
+    width: 120px;
+    height: 50px;
+    background-color:rgb(194, 193, 193) ;
+    top: 40px;
+    left: -30px;
+    position: absolute;
+    border-radius: 10px;
+}
+.cuerpo .brazoder{
+    width: 120px;
+    height: 50px;
+    background-color:rgb(194, 193, 193) ;
+    top: 40px;
+    right: -30px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/*ARMNADO LAS PIERNAS*/
+.cuerpo .piernaizq{
+    position: absolute;
+    width: 50px;
+    height: 120px;
+    background-color:rgb(194, 193, 193) ;
+    bottom: -90px;
+    left: 30px;
+    border-radius: 10px;
+}
+.cuerpo .piernader{
+    position: absolute;
+    width: 50px;
+    height: 120px;
+    background-color:rgb(194, 193, 193) ;
+    bottom: -90px;
+    right: 30px;
+    border-radius: 10px;
+}
+
+/*ARMANDO LAS UÑAS*/
+.cuerpo .uña1, .uña2, .uña3,.uña4,.uña5,.uña6{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: rgb(49, 6, 6);
+}
+.cuerpo .uña1{
+    left:85px ;
+    top: 50px;
+}
+.cuerpo .uña2{
+    left:85px ;
+    top: 62px;
+}
+.cuerpo .uña3{
+    left:85px ;
+    top: 74px;
+}
+.cuerpo .uña4{
+    right:85px ;
+    top: 50px;
+}
+.cuerpo .uña5{
+    right: 85px ;
+    top: 62px;
+}
+.cuerpo .uña6{
+    right:85px ;
+    top: 74px;
+}
+
+/*ARMANDO LOS PIES*/
+.cuerpo .pieizq{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(32, 86, 235);
+    bottom: -100px;
+    position: absolute;
+    left: 15px;
+    border-radius: 10px;
+}
+.cuerpo .pieder{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(32, 86, 235);
+    bottom: -100px;
+    position: absolute;
+    right: 15px;
+    border-radius: 10px;
+}
+
+/*PIE DE PAGINA*/
+.footer{
+background-color: rgb(9, 112, 216);
+padding: 1px 10px 5px 10px;
+width: 100px;
+display: inline-block;
+color: #fff;
+}
+
+.footer i{
+    font-size: 30px;
+    margin-left: 10px;
+}

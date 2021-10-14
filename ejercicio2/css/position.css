@@ -1,0 +1,81 @@
+@font-face{
+    font-family: 'fuente de diego';
+    src: url('../fonts//Concert_One/ConcertOne-Regular.ttf');
+}
+@font-face{
+    font-family: 'fuente';
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-top: 70px;
+}
+header{
+    font-family: 'fuente de diego';
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    color: #fff;
+    position: fixed;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+
+nav li{
+    display: inline;
+    margin: 25px 10px 0px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.envolver{
+    display: flex;
+    margin: 20px;
+}
+
+.fondo{
+    background-color: rgb(240, 132, 132);
+    width: 300px;
+    height: 250px;
+    margin:  10px;
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fondo .position{
+    width: 70%;
+    height: 200px;
+    background-color: rgba(162, 245, 151, 0.534);
+    position: absolute;
+    left: 32px;
+    right: 32px;
+    top: 22px;
+    overflow-y: auto;
+    
+}
+
+.fondo .texto{
+    margin: 25px 35px 10px 35px;
+    font-family: fuente;
+}
+
+.fondo .position:hover{
+    width: 70%;
+    height: 200px;
+    background-color: rgba(242, 151, 245, 0.253);
+    position: absolute;
+    left: 32px;
+    top: 22px;
+    cursor: pointer;
+    color: #fff;
+}
